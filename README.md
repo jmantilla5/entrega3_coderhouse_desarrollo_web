@@ -1,1 +1,7 @@
-# Mi segunda entrega en el curso de desarrollo web con coderhouse
+¡Hola! 👋  
+Soy **Julian Mantilla** y actualmente me encuentro cursando **Desarrollo Web** en **Coderhouse**.
+
+Este repositorio contiene mi **segunda entrega del curso**, donde aplico los conocimientos adquiridos hasta el momento.
+
+¡Gracias por visitar mi proyecto!  
+**¡Que tengas un buen día!** 🌞
