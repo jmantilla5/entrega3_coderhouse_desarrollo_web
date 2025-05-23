@@ -1,45 +1,74 @@
+html,
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f7f9fc;
-    color: #333;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  p {
-    margin-bottom: 0.5rem;
-  }
-  
-  footer p {
-    margin: 0;
-  }
-  
-  /* Estilo personalizado para override de Bootstrap si es necesario */
-  .nav-link:hover,
-  .nav-link:focus {
-    text-decoration: underline;
-  }
-  
-  section.bg-light {
-    background-color: #ffffff !important;
-  }
-  
-  .btn-primary {
-    background-color: #0077cc;
-    border-color: #0077cc;
-  }
-  
-  .btn-primary:hover {
-    background-color: #005fa3;
-    border-color: #005fa3;
-  }
-  
-  .plane-icon {
-    width: 32px;
-    height: auto;
-    margin-right: 10px;
-    vertical-align: middle;
+  height: 100%;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+body img {
+  max-width: 100%;
+  height: auto;
+}
+body p {
+  margin-bottom: 0.5rem;
+}
+body footer p {
+  margin: 0;
+}
+body main {
+  flex: 1;
+}
+
+.nav-link:hover, .nav-link:focus {
+  text-decoration: underline;
+}
+.nav-link.text-white:hover {
+  text-decoration: underline;
+  color: rgb(135.5, 241.4716981132, 255) !important;
+}
+
+.btn-primary {
+  background-color: #00bcd4 !important;
+  border-color: #00bcd4 !important;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #0097a7 !important;
+  border-color: #0097a7 !important;
+}
+
+section.bg-light {
+  background-color: #ffffff !important;
+}
+
+.plane-icon {
+  width: 32px;
+  height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.card .card-title {
+  font-weight: 600;
+}
+.card .card-img-top {
+  transition: transform 0.3s ease;
+}
+.card .card-img-top:hover {
+  transform: scale(1.05);
+}
+
+.bg-primary {
+  background-color: #00bcd4 !important;
+}
+
+.text-primary {
+  color: #00bcd4 !important;
+}
+
+/*# sourceMappingURL=style.css.map */
