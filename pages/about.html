@@ -3,15 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Quiénes Somos</title>
+  <meta name="description" content="Conoce a Viajayaa: una agencia con más de 10 años de experiencia en crear experiencias de viaje únicas y memorables. Atención personalizada y pasión por explorar el mundo.">
+  <meta name="robots" content="index, follow" />
+  <title>Quiénes Somos - Viajayaa</title>
+  
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="../css/style.css" />
 </head>
+
 <body>
   <header class="bg-primary text-white py-3">
     <div class="container d-flex justify-content-between align-items-center">
-      <h1 class="h3 m-0">Conócenos <img src="../assets/plane.jpg" alt="Avión" class="plane-icon"></h1>
+      <h1 class="h3 m-0">Conócenos <i class="fas fa-plane-departure ms-2" aria-hidden="true" title="Viajes en avión"></i></h1>
       <nav>
         <ul class="nav">
           <li class="nav-item"><a class="nav-link text-white" href="../index.html">Inicio</a></li>
@@ -23,56 +28,61 @@
       </nav>
     </div>
   </header>
- <main class="container my-5">
-  <!-- Carrusel/Slider -->
-  <div id="aboutCarousel" class="carousel slide mb-5 shadow rounded" data-bs-ride="carousel">
-    <div class="carousel-inner rounded">
-      <div class="carousel-item active">
-        <img src="../assets/about1.jpg" class="d-block w-100" alt="Nuestro equipo">
-        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-          <h5>Pasión por los viajes</h5>
-          <p>Un equipo apasionado que ama descubrir el mundo contigo.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../assets/about2.jpg" class="d-block w-100" alt="Nuestra experiencia">
-        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-          <h5>Más de 10 años de experiencia</h5>
-          <p>Conectamos a viajeros con destinos inolvidables desde 2012.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="../assets/about3.jpg" class="d-block w-100" alt="Compromiso con el cliente">
-        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-          <h5>Atención personalizada</h5>
-          <p>Cada viaje es único, y tu satisfacción es nuestra prioridad.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Siguiente</span>
-    </button>
-  </div>
 
-  <!-- Texto descriptivo -->
-  <section class="text-center px-3">
-    <h2 class="fw-bold">¿Quiénes somos?</h2>
-    <p class="lead mt-3">
-      En <strong>Viajayaa</strong>, somos más que una agencia de viajes. Somos tu aliado para explorar, descubrir y disfrutar el mundo con tranquilidad y confianza.
-    </p>
-    <p>
-      Nuestra misión es inspirar a las personas a vivir experiencias únicas, ofreciendo atención personalizada, asesoría experta y paquetes adaptados a cada viajero. Creemos que viajar transforma, y queremos ayudarte a construir recuerdos inolvidables.
-    </p>
-  </section>
-</main>
+  <main class="container my-5">
+    <!-- Carrusel/Slider -->
+    <section class="mb-5 shadow rounded">
+      <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner rounded">
+          <div class="carousel-item active">
+            <img src="../assets/about1.jpg" class="d-block w-100" alt="Equipo de Viajayaa trabajando en viajes">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Pasión por los viajes</h5>
+              <p>Un equipo apasionado que ama descubrir el mundo contigo.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/about2.webp" class="d-block w-100" alt="Viajayaa celebrando más de 10 años de experiencia">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Más de 10 años de experiencia</h5>
+              <p>Conectamos a viajeros con destinos inolvidables desde 2012.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/about3.jpg" class="d-block w-100" alt="Asesor atendiendo cliente de forma personalizada">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Atención personalizada</h5>
+              <p>Cada viaje es único, y tu satisfacción es nuestra prioridad.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Texto descriptivo -->
+    <section class="text-center px-3">
+      <h2 class="fw-bold">¿Quiénes somos?</h2>
+      <p class="lead mt-3">
+        En <strong>Viajayaa</strong>, somos más que una agencia de viajes. Somos tu aliado para explorar, descubrir y disfrutar el mundo con tranquilidad y confianza.
+      </p>
+      <p>
+        Nuestra misión es inspirar a las personas a vivir experiencias únicas, ofreciendo atención personalizada, asesoría experta y paquetes adaptados a cada viajero. Creemos que viajar transforma, y queremos ayudarte a construir recuerdos inolvidables.
+      </p>
+    </section>
+  </main>
+
   <footer class="bg-primary text-white text-center py-3">
     <p class="mb-0">&copy; 2025 viajayaa.com - Todos los derechos reservados.</p>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -3,15 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Galería</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta name="description" content="Galería de destinos turísticos destacados con fotos y descripciones para inspirar tu próximo viaje con Viajayaa." />
+  <meta name="robots" content="index, follow" />
+  <title>Galería de Destinos - Viajayaa</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
   <header class="bg-primary text-white py-3">
     <div class="container d-flex justify-content-between align-items-center">
-      <h1 class="h3 m-0">Galería de Destinos <img src="../assets/plane.jpg" alt="Avión" class="plane-icon"></h1>
+      <h1 class="h3 m-0">
+        Galería de Destinos
+        <i class="fas fa-plane-departure ms-2" aria-hidden="true" title="Viajes en avión"></i>
+      </h1>
       <nav>
         <ul class="nav">
           <li class="nav-item"><a class="nav-link text-white" href="../index.html">Inicio</a></li>
@@ -27,15 +34,47 @@
   <main class="container my-5">
     <section class="text-center">
       <h2>A dónde deseas que te llevemos?</h2>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mt-4">
-        <div class="col"><img src="../assets/paris.jpg" class="img-fluid rounded shadow-sm" alt="Paris" /><p>París, Francia</p></div>
-        <div class="col"><img src="../assets/Roma.jpg" class="img-fluid rounded shadow-sm" alt="Roma" /><p>Roma, Italia</p></div>
-        <div class="col"><img src="../assets/Madrid.jpg" class="img-fluid rounded shadow-sm" alt="Madrid" /><p>Madrid, España</p></div>
-        <div class="col"><img src="../assets/Tokyo.jpg" class="img-fluid rounded shadow-sm" alt="Tokyo" /><p>Tokyo, Japón</p></div>
-        <div class="col"><img src="../assets/Buenosaires.jpg" class="img-fluid rounded shadow-sm" alt="Buenos Aires" /><p>Buenos Aires, Argentina</p></div>
-        <div class="col"><img src="../assets/cartagena.jpg" class="img-fluid rounded shadow-sm" alt="Cartagena" /><p>Cartagena, Colombia</p></div>
+      <div class="row gallery-row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mt-4">
+        <div class="col">
+          <figure>
+            <img src="../assets/paris.jpg" class="img-fluid rounded shadow-sm" alt="Vista panorámica de París con la Torre Eiffel" />
+            <figcaption>París, Francia</figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure>
+            <img src="../assets/Roma.webp" class="img-fluid rounded shadow-sm" alt="Coliseo Romano en Roma, Italia" />
+            <figcaption>Roma, Italia</figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure>
+            <img src="../assets/Madrid.jpg" class="img-fluid rounded shadow-sm" alt="Plaza Mayor en Madrid, España" />
+            <figcaption>Madrid, España</figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure>
+            <img src="../assets/Tokyo.jpg" class="img-fluid rounded shadow-sm" alt="Skyline nocturno de Tokyo, Japón" />
+            <figcaption>Tokyo, Japón</figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure>
+            <img src="../assets/Buenosaires.jpg" class="img-fluid rounded shadow-sm ba-img" alt="Vista de Buenos Aires, Argentina" />
+            <figcaption>Buenos Aires, Argentina</figcaption>
+          </figure>
+        </div>
+        <div class="col">
+          <figure>
+            <img src="../assets/cartagena.jpg" class="img-fluid rounded shadow-sm" alt="Casas coloridas en Cartagena, Colombia" />
+            <figcaption>Cartagena, Colombia</figcaption>
+          </figure>
+        </div>
       </div>
-      <p class="mt-4">¡Y muchos más destinos! <a href="contact.html">Pregúntanos</a>.</p>
+      <p class="mt-4">
+        ¡Y muchos más destinos! <a href="contact.html">Pregúntanos</a>.
+      </p>
     </section>
   </main>
 

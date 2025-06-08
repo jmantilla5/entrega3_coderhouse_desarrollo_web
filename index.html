@@ -1,123 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Inicio - Viajayaa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header class="bg-primary text-white py-3">
-      <div class="container d-flex justify-content-between align-items-center">
-        <h1 class="h3 m-0">
-          Viaja Yaa!
-          <img src="./assets/plane.jpg" alt="Avión" class="plane-icon" />
-        </h1>
-        <nav>
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="pages/about.html"
-                >Quiénes Somos</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="pages/destinations.html"
-                >Destinos</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="pages/gallery.html"
-                >Galería</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="pages/contact.html"
-                >Contacto</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main class="container my-5">
-      <!-- Sección de bienvenida -->
-      <section class="text-center bg-light p-5 rounded shadow mb-5">
-        <h2 class="display-5 fw-bold">¡Descubre el mundo con Viajayaa!</h2>
-        <p class="lead">
-          Explora los destinos más increíbles y crea recuerdos inolvidables con
-          nosotros.
-        </p>
-        <a href="pages/destinations.html" class="btn btn-primary btn-lg mt-3"
-          >Ver Destinos</a
-        >
-      </section>
-      <!-- Cards con beneficios -->
-      <section>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-100 shadow-sm">
-              <img
-                src="./assets/globe-icon.png"
-                class="card-img-top p-4"
-                alt="Destinos del mundo"
-                style="height: 150px; object-fit: contain"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title">+100 Destinos</h5>
-                <p class="card-text">
-                  Conoce lugares exóticos, culturales e históricos en todos los
-                  continentes.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 shadow-sm">
-              <img
-                src="./assets/deal-icon.png"
-                class="card-img-top p-4"
-                alt="Ofertas exclusivas"
-                style="height: 150px; object-fit: contain"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title">Ofertas Exclusivas</h5>
-                <p class="card-text">
-                  Aprovecha promociones especiales y paquetes hechos para ti.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100 shadow-sm">
-              <img
-                src="./assets/support-icon.png"
-                class="card-img-top p-4"
-                alt="Soporte 24/7"
-                style="height: 150px; object-fit: contain"
-              />
-              <div class="card-body text-center">
-                <h5 class="card-title">Soporte 24/7</h5>
-                <p class="card-text">
-                  Nuestro equipo está disponible en todo momento para ayudarte.
-                </p>
-              </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Viajayaa - Descubre más de 100 destinos increíbles con ofertas exclusivas y atención 24/7.">
+  <meta name="keywords" content="viajes, destinos, turismo, vacaciones, Viajayaa">
+  <meta name="author" content="Viajayaa Team">
+  <title>Inicio | Viajayaa - Explora el mundo</title>
+
+  <!-- Preconexión para rendimiento -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-Vk6..." crossorigin="anonymous" />
+
+  <!-- Avion en el header -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Estilo personalizado -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="bg-primary text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="h3 m-0 d-flex align-items-center">
+        Viaja Yaa!
+        <i class="fas fa-plane-departure ms-2" aria-hidden="true" title="Viajes en avión"></i>      </h1>
+      <nav aria-label="Menú principal">
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="pages/about.html">Quiénes Somos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="pages/destinations.html">Destinos</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="pages/gallery.html">Galería</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="pages/contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <!-- Sección de bienvenida -->
+    <section class="text-center bg-light p-5 rounded shadow mb-5">
+      <h2 class="display-5 fw-bold">¡Descubre el mundo con Viajayaa!</h2>
+      <p class="lead">Explora los destinos más increíbles y crea recuerdos inolvidables con nosotros.</p>
+      <a href="pages/destinations.html" class="btn btn-primary btn-lg mt-3">Ver Destinos</a>
+    </section>
+
+    <!-- Cards con beneficios -->
+    <section aria-label="Beneficios de Viajayaa">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-sm text-center">
+            <img src="./assets/globe-icon.png" class="card-img-top p-4" alt="Destinos del mundo" style="height: 150px; object-fit: contain" loading="lazy" />
+            <div class="card-body">
+              <h3 class="card-title h5">+100 Destinos</h3>
+              <p class="card-text">Conoce lugares exóticos, culturales e históricos en todos los continentes.</p>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-    <footer class="bg-primary text-white text-center py-3">
-      <p class="mb-0">
-        &copy; 2025 viajayaa.com - Todos los derechos reservados.
-      </p>
-    </footer>
-  </body>
+        <div class="col">
+          <div class="card h-100 shadow-sm text-center">
+            <img src="./assets/deal-icon.png" class="card-img-top p-4" alt="Ofertas exclusivas" style="height: 150px; object-fit: contain" loading="lazy" />
+            <div class="card-body">
+              <h3 class="card-title h5">Ofertas Exclusivas</h3>
+              <p class="card-text">Aprovecha promociones especiales y paquetes hechos para ti.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm text-center">
+            <img src="./assets/support-icon.png" class="card-img-top p-4" alt="Soporte 24/7" style="height: 150px; object-fit: contain" loading="lazy" />
+            <div class="card-body">
+              <h3 class="card-title h5">Soporte 24/7</h3>
+              <p class="card-text">Nuestro equipo está disponible en todo momento para ayudarte.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-primary text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 viajayaa.com - Todos los derechos reservados.</p>
+  </footer>
+</body>
 </html>

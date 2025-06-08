@@ -104,3 +104,57 @@ section.bg-light {
 .text-primary {
   color: $primary-color !important;
 }
+
+/* Centrar las últimas dos columnas para mejorar espacios vacíos en desktop */
+@media (min-width: 992px) {
+  .gallery-row > .col:nth-last-child(2),
+  .gallery-row > .col:nth-last-child(1) {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/*Animación avión despegando*/
+
+@keyframes plane-takeoff {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  30% {
+    transform: translateY(-5px) rotate(-5deg);
+  }
+  60% {
+    transform: translateY(-10px) rotate(-10deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+.fas.fa-plane-departure {
+  font-size: 1.5rem;
+  color: #ffffff;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    animation: plane-takeoff 1.2s ease-in-out;
+  }
+}
+// Estilo uniforme para mejorar las imágenes de la galería
+.gallery-row img {
+  object-fit: cover;
+  width: 400%;
+  height: 550px; 
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+.ba-img {
+  object-position: top;
+}
